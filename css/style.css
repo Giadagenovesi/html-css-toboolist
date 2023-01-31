@@ -6,12 +6,15 @@
 /* common */
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: #f6f8f9;
 }
 
 .main-container{
-    background-color: whitesmoke;
+    background-color: white;
     width: 70%;
-    margin: 50px 250px;
+    margin: 80px 250px;
+    border: solid #f6f8f9 3px;
+   
 }
 /* end common */
 
@@ -19,7 +22,7 @@ body{
 #header-logo{
     height: 100px;
     line-height: 100px;
-    background-color: whitesmoke;
+    background-color: white;
 }
 #logo-image{
     width: 80px;
@@ -39,9 +42,13 @@ body{
  /* label section */
 
 .label-container{
-    background-color: whitesmoke;
     line-height: 80px; 
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
+    padding: 10px 0px 0px 30px;
+    height: 80px;
+    border-bottom:3px solid #f6f8f9;
+    border-radius: 3px 3px 0px 0px;
+  
 }
 .adds-label{
     display: inline-block;
@@ -67,7 +74,8 @@ body{
  /* list section  */
 
  .list-container{
-    padding:50px 100px;
+    padding:0px 100px 50px 100px;
+    
  }
 ul.main-list{
     list-style-type: none;
