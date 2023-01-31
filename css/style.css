@@ -2,5 +2,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
+
+/* common */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* end common */
+
+/* header */
+#header-logo{
+    height: 100px;
+    line-height: 100px;
+    background-color: whitesmoke;
+}
+
+#logo-image{
+    width: 80px;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+
+#logo-title{
+    display: inline-block;
+    font-size: 60px;
+    vertical-align: middle;
+}
+/* end header */
