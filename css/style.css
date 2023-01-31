@@ -38,13 +38,14 @@ body{
 
 /* main */
 
- /* cell section */
+ /* label section */
 
-.cell-container{
+.label-container{
     background-color: whitesmoke;
-    line-height: 80px;  
+    line-height: 80px; 
+    margin-bottom: 30px; 
 }
-.adds-cell{
+.adds-label{
     display: inline-block;
     font-size: 1.2rem;
     line-height: 15px;
@@ -53,21 +54,48 @@ body{
     border-radius: 10px;
 }
 
-#white-cell{
+#white-label{
     color: lightgrey;
 
 }
 
-#blue-cell{
+#blue-label{
     margin-left: 80px;
     background-color: #45abea;
     color: white;
 }
+ /*end label section */
 
+ /* list section  */
 
+ .list-container{
+    padding:50px 100px;
+ }
 ul.main-list{
     list-style-type: none;
+    font-size: 1.4rem;
+    font-weight:bold;
+    line-height: 60px;
+}
 
+.check{
+    color: green;
+    border: solid green 1px;
+    border-radius: 50%;
+    padding: 5px 8px;
+    font-size: 0.8rem; 
+}
+
+.cross{
+    color: red;
+    border: solid red 1px;
+    border-radius: 50%;
+    padding: 5px 8px;
+    font-size: 0.8rem; 
+}
+
+.main-list h2{
+    font-size: 2rem;
 }
 
 .editorial{
@@ -82,5 +110,74 @@ ul.main-list{
     color: white;
     font-size: 0.8rem;
 }
+
+.goals{
+    display: inline-block;
+    background-color:#9c72e4;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.recruting{
+    display: inline-block;
+    background-color:#64c0a9;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.mobile{
+    display: inline-block;
+    background-color:#f29e33;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.website{
+    display: inline-block;
+    background-color:#d863a1;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.sales{
+    display: inline-block;
+    background-color:#b0c926;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+    font-size: 0.8rem;
+}
+
+
+ /*end list section  */
+
 /* end main */
 
