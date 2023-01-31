@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 /* common */
 body{
     font-family: 'Roboto', sans-serif;
@@ -22,7 +21,6 @@ body{
     line-height: 100px;
     background-color: whitesmoke;
 }
-
 #logo-image{
     width: 80px;
     vertical-align: middle;
@@ -98,82 +96,35 @@ ul.main-list{
     font-size: 2rem;
 }
 
+.label{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+    font-size: 0.8rem;
+}
 .editorial{
-    display: inline-block;
     background-color: #45abea;
-    width: 80px;
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-    border-radius: 10px;
-    margin: 10px;
-    color: white;
-    font-size: 0.8rem;
 }
-
 .goals{
-    display: inline-block;
     background-color:#9c72e4;
-    width: 80px;
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-    border-radius: 10px;
-    margin: 10px;
-    color: white;
-    font-size: 0.8rem;
 }
-
 .recruting{
-    display: inline-block;
     background-color:#64c0a9;
-    width: 80px;
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-    border-radius: 10px;
-    margin: 10px;
-    color: white;
-    font-size: 0.8rem;
 }
-
 .mobile{
-    display: inline-block;
     background-color:#f29e33;
-    width: 80px;
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-    border-radius: 10px;
-    margin: 10px;
-    color: white;
-    font-size: 0.8rem;
 }
 
 .website{
-    display: inline-block;
     background-color:#d863a1;
-    width: 80px;
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-    border-radius: 10px;
-    margin: 10px;
-    color: white;
-    font-size: 0.8rem;
 }
-
 .sales{
-    display: inline-block;
     background-color:#b0c926;
-    width: 80px;
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-    border-radius: 10px;
-    margin: 10px;
-    color: white;
-    font-size: 0.8rem;
 }
 
 
