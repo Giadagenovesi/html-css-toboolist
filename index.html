@@ -11,74 +11,68 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
     <!-- header -->
-    <header>
-        <div id="header-logo">
+    <header class="header">
             <img id="logo-image" src="img/Logo.png" alt="Logo">
             <h1 id="logo-title">Toboolist</h1>
-        </div>
     </header>
     <!-- end header -->
 
     <!-- main -->
     <main>
         <div class="main-container">
-            <div class="label-container">
-                <div class="adds-label" id="blue-label"> Add Task </div>
-                <div class="adds-label" id="white-label"> Add Section </div>
-            </div>
-            <div class="list-container">
-                <!-- corrrect list section -->
-                <ul class="list new-task">
-                    <li> <span class="arrow"> &#9660;</span> <h2>New Task</h2>
+            <nav class="actions">
+                <button class="btn btn-filled"> Add task</button>
+                <button class="btn btn-empty">Add action</button>
+            </nav>
+
+            <!-- list section -->
+            <div class="tasks">
+                <ul class="main-list list">
+                    <li> <span class="arrow"> &#9207;</span> <h2>New Task</h2>
                         <ul class="list">
                             <li>
-                                <span class="check"> &check;</span> Quarterly Newsletter <span class="label editorial"> Editorial</span>
+                                <span class=" circle check"> &check;</span> Quarterly Newsletter <span class="label editorial"> Editorial</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li> <span class="arrow"> &#9207;</span><h2>  Today</h2>
+                        <ul class="list">
+                            <li>
+                                <span class="circle check"> &check;</span> Recruiting blog post <span class="label editorial"> Editorial</span>
+                            </li>
+                            <li>
+                                <span class="circle check"> &check;</span> Mobile app launch <span class="label goals"> Q1 Goals</span>
+                            </li>
+                            <li>
+                                <span class="circle cross"> &cross;</span> Interview John H. <span class="label recruting"> Recruting</span>
+                            </li>
+                            <li>
+                                <span class="circle check"> &check;</span> Summit update to mobile storefronts <span class="label mobile"> Mobile</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li> <span class="arrow"> &#9207;</span><h2> Upcoming</h2>
+                        <ul class="list">
+                            <li>
+                                <span class="circle cross"> &cross;</span> Schedule meeting with Alex
+                            </li>
+                            <li>
+                                <span class="circle check"> &check;</span> Homepage refresh <span class="label website"> Website</span>
+                            </li>
+                            <li>
+                                <span class="circle check"> &check;</span> Onboard new Sales team members <span class="label sales"> Sales</span>
+                            </li>
+                            <li>
+                                <span class="circle check"> &check;</span> Review editorial calendar<span class="label editorial"> Editorial</span>
                             </li>
                         </ul>
                     </li>
                 </ul>
-                <ul class="list today" >
-                    <li> <span class="arrow"> &#9660;</span><h2>  Today</h2>
-                        <ul class="list">
-                            <li>
-                                <span class="check"> &check;</span> Recruiting blog post <span class="label editorial"> Editorial</span>
-                            </li>
-                            <li>
-                                <span class="check"> &check;</span> Mobile app launch <span class="label goals"> Q1 Goals</span>
-                            </li>
-                            <li>
-                                <span class="cross"> &cross;</span> Interview John H. <span class="label recruting"> Recruting</span>
-                            </li>
-                            <li>
-                                <span class="check"> &check;</span> Summit update to mobile storefronts <span class="label mobile"> Mobile</span>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul class="list upcoming">
-                    <li> <span class="arrow"> &#9660;</span><h2> Upcoming</h2>
-                        <ul class="list">
-                            <li>
-                                <span class="cross"> &cross;</span> Schedule meeting with Alex
-                            </li>
-                            <li>
-                                <span class="check"> &check;</span> Homepage refresh <span class="label website"> Website</span>
-                            </li>
-                            <li>
-                                <span class="check"> &check;</span> Onboard new Sales team members <span class="label sales"> Sales</span>
-                            </li>
-                            <li>
-                                <span class="check"> &check;</span> Review editorial calendar<span class="label editorial"> Editorial</span>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                <!-- end of correct list section -->
+   <!-- end of correct list section -->             
             </div>
         </div>
-    </main>
+    </main> 
     <!-- end main -->
 </body>
 </html>

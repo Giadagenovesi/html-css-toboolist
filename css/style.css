@@ -1,135 +1,127 @@
+
+/* reset */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/* common */
+
+/* GENERAL */
 body{
     font-family: 'Roboto', sans-serif;
     background-color: #f6f8f9;
 }
 
-.main-container{
-    background-color: white;
-    width: 70%;
-    margin: 80px 250px;
-    border: solid #f6f8f9 3px;
-   
+/* Buttons */
+.btn{
+    border-radius: 5px;
+    padding: .3rem .8rem;
+    font-size: .8rem;
+    border: 0;
+    cursor: pointer;
 }
-/* end common */
+.btn-filled{ 
+    color: white;
+    background-color: #45abea;
+    border: solid #45abea 1px;
+     
+}
+.btn-empty{
+    background-color:white;
+    color: grey;
+    border: solid rgb(63, 62, 62) 1px;
+}
+ /*end buttons */
 
 /* header */
-#header-logo{
+.header{
     height: 100px;
     line-height: 100px;
     background-color: white;
+    padding : 0px 20px;
 }
 #logo-image{
-    width: 80px;
-    vertical-align: middle;
-    margin-left: 30px;
+    vertical-align: middle; 
 }
 
 #logo-title{
     display: inline-block;
-    font-size: 60px;
+    font-size: 40px;
     vertical-align: middle;
 }
 /* end header */
 
 /* main */
+.main-container{
+    background-color: white;
+    width: 80%;
+    margin: 80px auto;
+    border: solid #f6f8f9 3px;
+    border-radius: 10px;  
+}
 
- /* label section */
-
-.label-container{
+.actions{
     line-height: 80px; 
     margin-bottom: 30px;
-    padding: 10px 0px 0px 30px;
-    height: 80px;
-    border-bottom:3px solid #f6f8f9;
+    padding:.8rem 1.4rem;
+    border-bottom:5px solid #f6f8f9;
     border-radius: 3px 3px 0px 0px;
-  
 }
-.adds-label{
-    display: inline-block;
-    font-size: 1.2rem;
-    line-height: 15px;
-    border:solid lightgray 1px ;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-#white-label{
-    color: lightgrey;
-
-}
-
-#blue-label{
-    margin-left: 80px;
-    background-color: #45abea;
-    color: white;
-}
- /*end label section */
 
  /* list section  */
 
- .list-container{
-    padding:5px 100px 50px 100px;
-    
+ .tasks{
+    padding: 1.2rem 1.4rem;
  }
+
 ul.list{
     list-style-type: none;
     font-size: 1.4rem;
     font-weight:bold;
-    line-height: 50px;
+
+}
+.main-list > li {
+    margin-bottom: .8rem;
+    line-height: 2.9rem;
+}
+
+.circle{
+    border: solid 1px;
+    border-radius: 50%;
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    font-size: 0.8rem; 
+    margin-right: 8px;
 }
 
 .check{
     color: green;
-    border: solid green 1px;
-    border-radius: 50%;
-    padding: 2px 5px;
-    font-size: 0.8rem; 
-    margin-right: 8px;
+    border-color: green;
 }
 
 .cross{
     color: red;
-    border: solid red 1px;
-    border-radius: 50%;
-    padding: 3px 5px;
-    font-size: 0.8rem; 
-    margin-right: 8px;
+    border-color:  red;
 }
 
 .arrow{
     display: inline-block;
     margin-right: 5px;
 }
+
 h2{
     display: inline-block;
 }
-.new-task{
-    margin: 30px 0px;
-}
-
-.today{
-    margin: 30px 0px;
-}
-.upcoming{
-    margin: 30px 0px;
-}
 
 .label{
-    display: inline-block;
-    width: 80px;
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-    border-radius: 10px;
-    margin: 10px;
+    padding: .5rem 1rem;
+    margin-left: 1rem;
+    border-radius: 20px;
     color: white;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 .editorial{
     background-color: #45abea;
@@ -150,8 +142,6 @@ h2{
 .sales{
     background-color:#b0c926;
 }
-
-
  /*end list section  */
 
 /* end main */
